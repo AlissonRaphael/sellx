@@ -1,8 +1,8 @@
-# fehu
-[![GitHub](https://img.shields.io/github/license/AlissonRaphael/fehu)](https://github.com/AlissonRaphael/fehu/blob/main/LICENSE)
+# Sellx
+[![GitHub](https://img.shields.io/github/license/AlissonRaphael/sellx)](https://github.com/AlissonRaphael/sellx/blob/main/LICENSE)
 
 
-Fehu is a complete design system focused on building landing page
+Sellx is a complete design system focused on building landing page
 
 ## Contents
 - [Installation](#installation)
@@ -47,13 +47,13 @@ brew install node
 
 ### Clone
 
-Clone this repo to your local machine using `https://github.com/AlissonRaphael/fehu`
+Clone this repo to your local machine using `https://github.com/AlissonRaphael/sellx`
 
 ## Contact
 - Github: [alissonraphael](https://gist.github.com/AlissonRaphael)
 
 ## License
-[![GitHub](https://img.shields.io/github/license/AlissonRaphael/fehu)](https://github.com/AlissonRaphael/fehu/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/license/AlissonRaphael/sellx)](https://github.com/AlissonRaphael/sellx/blob/main/LICENSE)
 
 ## Content
 - Accordion
