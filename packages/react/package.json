@@ -5,9 +5,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
-    "build": "tsup src/index.ts --format esm,cjs --dts"
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "lint": "eslint src/** --fix --no-warn-ignored"
   },
   "devDependencies": {
+    "@sellx/eslint-config": "*",
     "@sellx/tokens": "*",
     "@sellx/ts-config": "*",
     "tsup": "^8.4.0",
