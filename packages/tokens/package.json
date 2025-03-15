@@ -1,15 +1,17 @@
 {
   "name": "@sellx/tokens",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "./dist/intex.js",
+  "module": "./dist/intex.ts",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
     "build": "tsup src/index.ts --format esm,cjs --dts"
   },
   "devDependencies": {
+    "@sellx/ts-config": "*",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
   }
 }
- 
