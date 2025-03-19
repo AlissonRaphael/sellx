@@ -4,14 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
-    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --external react --watch",
+    "build": "tsup src/index.ts --format esm,cjs --dts --external react",
     "lint": "eslint src/** --fix --no-warn-ignored"
   },
   "devDependencies": {
     "@sellx/eslint-config": "*",
     "@sellx/tokens": "*",
     "@sellx/ts-config": "*",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "react": "^19.0.0",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
   }
