@@ -2,10 +2,10 @@ const globals = require("globals");
 const pluginJs = require("@eslint/js");
 const tseslint = require("typescript-eslint");
 const pluginReact = require("eslint-plugin-react");
-const airbnb = require("eslint-config-airbnb");
+const standard = require("eslint-config-standard");
 
 
-/** @type {const('eslint').Linter.Config[]} */
+/** @type {import('eslint').Linter.Config[]} */
 module.exports = [
   {files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"]},
   {languageOptions: { globals: globals.browser }},
@@ -13,6 +13,6 @@ module.exports = [
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   {
-    plugins: {airbnb}
-  }
-]
+    plugins: { standard },
+  },
+];
