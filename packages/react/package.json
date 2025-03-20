@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "tsup src/index.ts --format esm,cjs --dts --external react --watch",
-    "build": "tsup src/index.ts --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
     "lint": "eslint src/** --fix --no-warn-ignored"
   },
   "devDependencies": {
@@ -17,5 +17,8 @@
     "react": "^19.0.0",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
   }
 }
