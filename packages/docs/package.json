@@ -20,7 +20,6 @@
     "@sellx/eslint-config": "*",
     "@sellx/react": "*",
     "@sellx/tokens": "*",
-    "@sellx/ts-config": "*",
     "@storybook/addon-actions": "^8.6.8",
     "@storybook/addon-essentials": "^8.6.7",
     "@storybook/addon-interactions": "^8.6.8",

@@ -15,7 +15,6 @@
   "devDependencies": {
     "@sellx/eslint-config": "*",
     "@sellx/tokens": "*",
-    "@sellx/ts-config": "*",
     "@eslint/js": "^9.21.0",
     "@tailwindcss/vite": "^4.0.17",
     "@types/node": "^22.13.14",

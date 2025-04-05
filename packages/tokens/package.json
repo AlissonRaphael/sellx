@@ -12,7 +12,6 @@
   },
   "devDependencies": {
     "@sellx/eslint-config": "*",
-    "@sellx/ts-config": "*",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
   }
