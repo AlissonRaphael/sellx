@@ -17,7 +17,6 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.6",
-    "@sellx/eslint-config": "*",
     "@sellx/react": "*",
     "@sellx/tokens": "*",
     "@storybook/addon-actions": "^8.6.8",

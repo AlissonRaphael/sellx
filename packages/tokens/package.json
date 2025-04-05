@@ -7,11 +7,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "lint": "eslint src/** --fix --no-warn-ignored"
+    "build": "tsup src/index.ts --format esm,cjs --dts"
   },
   "devDependencies": {
-    "@sellx/eslint-config": "*",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
   }

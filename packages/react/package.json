@@ -13,7 +13,6 @@
     "lint": "eslint src/** --fix --no-warn-ignored"
   },
   "devDependencies": {
-    "@sellx/eslint-config": "*",
     "@sellx/tokens": "*",
     "@eslint/js": "^9.21.0",
     "@tailwindcss/vite": "^4.0.17",
