@@ -6,7 +6,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "dev:vite": "vite",
+    "dev": "vite",
     "build:vite": "tsc -b && vite build",
     "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
     "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
